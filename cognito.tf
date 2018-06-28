@@ -16,3 +16,8 @@ resource "aws_s3_bucket_object" "object" {
   key    = "config.js"
   source = "config.js"
 }
+resource "aws_s3_bucket_object" "js" {
+  bucket = "mybucket1-462281"
+  key    = "config.js"
+  source = "config.js"
+}
