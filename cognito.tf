@@ -15,5 +15,4 @@ resource "aws_s3_bucket_object" "object" {
   bucket = "mybucket1-462281"
   key    = "config.js"
   source = "config.js"
-  etag   = "${md5(file("path/to/file"))}"
 }
