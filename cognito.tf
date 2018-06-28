@@ -19,5 +19,5 @@ resource "aws_s3_bucket_object" "object" {
 resource "aws_s3_bucket_object" "js" {
   bucket = "mybucket1-462281"
   key    = "conf"
-  source = "D:\git repo\Assignment-2\conf/test.txt"
+  source = "conf/test.txt"
 }
